@@ -1,10 +1,9 @@
 <script>
-    import { slide } from 'svelte/transition';
 
 </script>
 
-<div class="about-content" transition:slide>
-    <div class="about-card">
+<div class="about-content">
+    <div class="about-card" >
         <div class="profile">
             <img src="/YogiKing-nobg.png" alt="" class="profile-img">
         </div>

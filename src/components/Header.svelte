@@ -1,12 +1,12 @@
 <script>
-    export let startingMargin = 32.9;
+    export let ml = `0%`;
 </script>
 
 <header>
     <div class="header-container">
         <ul>
             <li class="one"><a href="/">About</a></li>
-            <li class="two"><a href="/">Projects</a></li>
+            <li class="two"><a href="/projects">Projects</a></li>
             <li class="three"><a href="/">Blog</a></li>
             <hr />
         </ul>
@@ -64,6 +64,6 @@
         background: rgb(29, 112, 186);
         border: none;
         transition: .3s ease-in-out;
-        margin-left: var(--startingMargin);
+        margin-left: var(--ml);
     }
 </style>
