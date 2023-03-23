@@ -1,6 +1,6 @@
 <script>
   import Header from "../../components/Header.svelte";
-  import PreviewList from "../../components/project/PreviewList.svelte";
+  import PreviewList from "../../components/project/preview/PreviewList.svelte";
 
   export let data;
   const { previews } = data;

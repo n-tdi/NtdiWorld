@@ -1,21 +1,28 @@
 <script>
+    export let id;
     export let title;
     export let body;
     export let link;
 </script>
 
-<div class="card">
-    <h2 class="card-title">{title}</h2>
-    <p class="card-body">{body}</p>
+<a href="/projects/{id}">
+    <div class="card">
+        <h2 class="card-title">{title}</h2>
+        <p class="card-body">{body}</p>
 
-    <div class="card-bottom">
-        <a href={link} class="card-link">
-            <img class="card-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github Icon" />
-        </a>
+        <div class="card-bottom">
+            <a href={link} class="card-link">
+                <img class="card-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github Icon" />
+            </a>
+        </div>
     </div>
-</div>
+</a>
 
 <style>
+    a {
+        text-decoration: none;
+        color: black;
+    }
     .card {
         display: inline-flex;
         border-radius: 10px;
