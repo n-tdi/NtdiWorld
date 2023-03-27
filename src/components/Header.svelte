@@ -7,7 +7,7 @@
         <ul>
             <li class="one"><a href="/">About</a></li>
             <li class="two"><a href="/projects">Projects</a></li>
-            <li class="three"><a href="/">Blog</a></li>
+            <li class="three"><a href="/life">Life</a></li>
             <hr />
         </ul>
     </div>

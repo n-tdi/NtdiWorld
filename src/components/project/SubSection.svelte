@@ -3,13 +3,20 @@
     export let content;
 </script>
 
-<h2 class="title">{header}</h2>
-<p class="body">{@html content}</p>
+<div class="container">
+    <h2 class="title">{header}</h2>
+    <p class="body">{@html content}</p>
+</div>
 
 <style>
+    .container {
+        margin-bottom: 2rem;
+    }
+
     .body {
         font-size: 1.2rem;
-        margin: 1rem 0;
+        margin: 0.5rem 0;
+        margin-left: 1rem;
     }
 
     .code {

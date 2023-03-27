@@ -14,5 +14,8 @@
 		"svelte": "^3.54.0",
 		"vite": "^4.0.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@egjs/svelte-grid": "^1.13.0"
+	}
 }

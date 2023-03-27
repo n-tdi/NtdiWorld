@@ -1,33 +1,30 @@
 <script>
     import Preview from "./Preview.svelte";
+    import { MasonryGrid } from "@egjs/svelte-grid";
 
     export let previews = [];
 </script>
 
 <div class="preview-container">
-    <div class="previews">
+    <MasonryGrid>
         {#each previews as {id, title, description, github_link}}
         <div class="preview">
             <Preview id={id} title={title} body={description} link={github_link}/>
         </div>
         {/each}
-    </div>
+    </MasonryGrid>
 </div>
 
 <style>
     .preview-container {
         width: 67%;
-        margin: 0 auto;
-    }
-
-    .previews {
-        column-count: 3;
-        column-gap: 1rem;
+        margin: 5rem auto;
     }
 
     .preview {
         transition: all 0.2s ease-in-out;
         margin-bottom: 1rem;
+        width: 33%;
     }
 
     .preview:hover {

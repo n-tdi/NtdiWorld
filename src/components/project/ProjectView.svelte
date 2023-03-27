@@ -10,7 +10,6 @@
 <div class="card">
     <div class="card-title">
         <h1 class="card-title_text">{title}</h1>
-        <hr class="card-title_bar">
     </div>
     <div class="card-body">
         <p class="card-description">{@html description}</p>
@@ -31,12 +30,12 @@
 <style>
     .card {
         background-color: rgb(185, 222, 245);
-        border-radius: 3rem;
+        border-radius: 1rem;
         width: 100%;
+        filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.114));
         min-height: 20vh;
-        border: 1px solid white;
-        padding: 2rem 1rem;
-        margin-bottom: 5rem;
+        padding: 2rem 3rem;
+        margin: 5rem 0;
     }
 
     /* Title Styles */
@@ -46,37 +45,34 @@
     }
 
     .card-title_text {
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
 
-    .card-title_bar {
-        border: none;
-        border-top: 1px solid white;
-        margin: 0.5 0;
-    }
 
     /* Body Styles */
 
     .card-description {
-        font-size: 1.2rem;
-        margin: 1rem 0;
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
     }
 
     /* Features Styles */
 
-    .card-features {
-        margin: 1rem 0;
+    .card-features-title {
+        margin-bottom: 0.5rem;
     }
 
     .card-features-ul {
         margin-left: 2rem;
-        list-style-type: none;
+        /* list-style-type: none; */
+        list-style-type:square;
+        font-size: 1.2rem;
     }
 
-    .card-feature::before {
+    /* .card-feature::before {
         content: '\2014';
         position: absolute;
         margin-left: -20px;
-    }
+    } */
 
 </style>
