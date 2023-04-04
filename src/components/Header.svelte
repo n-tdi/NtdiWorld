@@ -1,7 +1,3 @@
-<script>
-    export let ml = `0%`;
-</script>
-
 <header>
     <div class="header-container">
         <ul>
@@ -65,5 +61,33 @@
         border: none;
         transition: .3s ease-in-out;
         margin-left: var(--ml);
+    }
+
+    @media screen and (max-width: 1200px) {
+        header {
+          margin: 0.5rem 0 !important;
+        }
+    }
+
+    @media screen and (max-width: 1000px) {
+        .header-container {
+          width: 80% !important;
+        }
+    }
+
+    @media screen and (max-width: 610px) {
+        .header-container {
+          width: 100% !important;
+        }
+    }
+
+    @media screen and (max-width: 490px) {
+        a {
+          width: 30% !important;
+        }
+
+        hr {
+          width: 30% !important;
+        }
     }
 </style>

@@ -21,8 +21,10 @@
 
     .location {
         margin-bottom: 0.5rem;
-        font-weight: 400;
+        font-weight: 200;
         font-family: monospace;
+        font-style: normal;
+        font-size: 1rem;
     }
 
     .file {
@@ -33,5 +35,9 @@
 
     .body {
         margin-top: 1rem;
+        font-weight: normal;
+        font-size: 1rem;
+        word-spacing: 2px;
+        line-height: 25px;
     }
 </style>

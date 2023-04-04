@@ -18,7 +18,8 @@
 <style>
     .preview-container {
         width: 67%;
-        margin: 5rem auto;
+        margin: 0 auto;
+        margin-bottom: 5rem;
     }
 
     .preview {
@@ -30,5 +31,49 @@
     .preview:hover {
         transform: translateY(-10px) scale(105%);
         cursor: pointer;
+    }
+
+    @media screen and (max-width: 1200px) {
+      .preview {
+        width: 50% !important;
+        margin-bottom: 0.5rem !important;
+      }
+
+      .preview-container {
+        width: 89% !important;
+      }
+    }
+
+    @media screen and (max-width: 800px) {
+      .preview {
+        width: 100% !important;
+        margin-bottom: 0.5rem !important;
+      }
+
+      .preview-container {
+        width: 89% !important;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .preview {
+        width: 100% !important;
+        margin-bottom: 0.5rem !important;
+      }
+
+      .preview-container {
+        width: 90% !important;
+      }
+    }
+
+    @media screen and (max-width: 300px) {
+      .preview {
+        width: 100% !important;
+        margin-bottom: 0.5rem !important;
+      }
+
+      .preview-container {
+        width: 100% !important;
+      }
     }
 </style>

@@ -20,4 +20,16 @@
         width: 59%;
         margin: 0 auto;
     }
+
+    @media screen and (max-width: 1200px) {
+      .container {
+        width: 78% !important;
+      }
+    }
+
+    @media screen and (max-width: 700px) {
+      .container {
+        width: 92% !important;
+      }
+    }
 </style>

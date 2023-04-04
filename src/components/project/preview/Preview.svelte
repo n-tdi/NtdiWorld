@@ -28,7 +28,7 @@
         border-radius: 10px;
         background-color: rgb(185, 222, 245);
         padding: 1.5rem;
-        width: 18vw;
+        width: 85%;
         flex-direction: column;
         filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.114));
         margin: 0.515rem;

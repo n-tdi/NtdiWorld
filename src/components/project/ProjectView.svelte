@@ -31,11 +31,10 @@
     .card {
         background-color: rgb(185, 222, 245);
         border-radius: 1rem;
-        width: 100%;
         filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.114));
         min-height: 20vh;
         padding: 2rem 3rem;
-        margin: 5rem 0;
+        margin-bottom: 5rem;
     }
 
     /* Title Styles */
@@ -74,5 +73,4 @@
         position: absolute;
         margin-left: -20px;
     } */
-
 </style>
