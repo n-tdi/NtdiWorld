@@ -3,11 +3,6 @@
     import Header from "../components/Header.svelte";
 </script>
 
-<svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
-</svelte:head>
-
 <Header --ml="0%"></Header>
 <div class="content-wrapper">
     <AboutMe></AboutMe>
